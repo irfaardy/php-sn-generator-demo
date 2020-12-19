@@ -1,0 +1,5 @@
+{
+    "require": {
+        "irfa/php-sn-generator": "^1.1"
+    }
+}
