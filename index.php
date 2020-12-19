@@ -90,11 +90,11 @@ textarea.form-control {
 					<div class="col-md-6 form-line">
 			  			<div class="form-group">
 			  				<label for="exampleInputUsername">Lenght</label>
-					    	<input type="number" name="length" min="1" value="<?= isset($_POST['length']) ? $_POST['length']:'4' ?>"  class="form-control" id="" placeholder=" Number of length">
+					    	<input type="number" name="length" min="1" max="256" value="<?= isset($_POST['length']) ? $_POST['length']:'4' ?>"  class="form-control" id="" placeholder=" Number of length">
 				  		</div>
 					  	<div class="form-group">
 					    	<label for="telephone">Segment</label>
-					    	<input type="number" name="segment" min="1" value="<?= isset($_POST['length']) ? $_POST['segment']:'4' ?>"  class="form-control" id="telephone" placeholder=" Number of Segment">
+					    	<input type="number" name="segment" max="64" min="1" value="<?= isset($_POST['length']) ? $_POST['segment']:'4' ?>"  class="form-control" id="telephone" placeholder=" Number of Segment">
 			  			</div>	
 			  			<div class="form-group">
 					    	<label for="spr">Seperator</label>
