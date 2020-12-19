@@ -1,3 +1,3 @@
 # php-sn-generator-demo
-Demo site
+Plugin
 https://github.com/irfaardy/php-sn-generator
