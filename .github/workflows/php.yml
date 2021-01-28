@@ -16,7 +16,7 @@ jobs:
     - name: Set PHP version to 7.4.x
       uses: shivammathur/setup-php@v2
       with:
-        php-version: '7.4.x'
+        php-version: '7.4'
     - name: Validate composer.json and composer.lock
       run: composer validate
 
